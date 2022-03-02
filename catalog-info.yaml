@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: express-demo
+  description: |
+    Express Demo Application
+  annotations:
+    github.com/project-slug: tikalk/express-demo
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: infrastructure
+  lifecycle: experimental
